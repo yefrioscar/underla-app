@@ -84,12 +84,12 @@ export default function Home() {
       </div>
 
       <img
-        src="vector_2.svg"
+        src="/vector_2.svg"
         alt=""
         className="absolute  left-0 right-0 bottom-0"
       />
       <img
-        src="vector_1.svg"
+        src="/vector_1.svg"
         alt=""
         className="absolute  left-0 right-0 bottom-0"
       />
