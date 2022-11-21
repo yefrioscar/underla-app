@@ -57,8 +57,8 @@ export default function Home() {
             Ultimos lanzamientos
           </h2>
           <div className="flex space-x-4">
-            {Array.from([1, 2, 3]).map((e) => (
-              <div>
+            {Array.from([1, 2, 3]).map((e, i) => (
+              <div key={i}>
                 <img src="/forum84.png" alt="" />
                 <div className="flex flex-col">
                   <span className="text-neutral-400">Forum 85 UNC</span>
